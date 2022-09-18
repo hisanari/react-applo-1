@@ -3,6 +3,7 @@ import './../App.css';
 import CreateLink from './CreateLink';
 import Header from './Header';
 import LinkList from './LinkList';
+import Login from './Login';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
               path="/create"
               element={<CreateLink/>}
             />
+            <Route path='/login' element={ <Login /> } />
             </Routes>
         </div>
     </div>
